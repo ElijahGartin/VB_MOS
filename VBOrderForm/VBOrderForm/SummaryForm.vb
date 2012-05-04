@@ -1,7 +1,6 @@
 ﻿Public Class SummaryForm
 
     'Declare the new objects.
-    Private TheCustomerInformation As CustomerInformation
     Private TheOrderItem As OrderItem
     Private TheCAOrderItem As CAOrderItem
 

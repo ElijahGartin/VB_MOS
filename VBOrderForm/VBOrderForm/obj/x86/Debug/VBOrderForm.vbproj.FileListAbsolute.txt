@@ -79,3 +79,17 @@ S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Developmen
 S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBOrderForm.resources
 S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.read.1.tlog
 S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.write.1.tlog
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.exe
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.xml
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.pdb
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.exe
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.pdb
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.xml
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.AboutForm.resources
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.CustomerInformationForm.resources
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.Resources.resources
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.SummaryForm.resources
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBOrderForm.resources
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.read.1.tlog
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.write.1.tlog

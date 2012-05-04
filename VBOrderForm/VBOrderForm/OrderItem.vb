@@ -23,7 +23,7 @@ Public Class OrderItem
     Public Sub New(ByVal ProdDescIn As String, ByVal QuantityIn As Integer, ByVal WeightIn As Decimal, ByVal PriceIn As Decimal)
         'Assign Property Values
 
-        ProdDesc = ProdDescIn
+        ProdDescString = ProdDescIn
         QuantityInteger = QuantityIn
         WeightDecimal = WeightIn
         PriceDecimal = PriceIn
