@@ -1,5 +1,5 @@
 ﻿' Project:  VBOrderForm
-' Date:     20APR2012
+' Date:     4MAY2012
 ' Author:   Elijah Gartin
 ' Description: This project will calculate dollar amount due of products ordered
 '               then calculate sales tax, shipping and handling, and then
@@ -12,47 +12,32 @@ Public Class VBOrderForm
     Private TheOrderItem As OrderItem
     Private TheCAOrderItem As CAOrderItem
 
+    Shared Property VbMailDataSetTableAdapters As Object
 
 
-    Private Sub btnPrint_Click(sender As System.Object, e As System.EventArgs) Handles PrintToolStripMenuItem.Click
+
+    Private Sub btnPrint_Click(sender As System.Object, e As System.EventArgs) Handles PrintToolStripMenuItem1.Click
         'Print Form to Preview
         PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview
         PrintForm1.Print()
     End Sub
 
-    Private Sub btnExit_Click(sender As System.Object, e As System.EventArgs) Handles ExitToolStripMenuItem.Click
+    Private Sub btnExit_Click(sender As System.Object, e As System.EventArgs) Handles ExitToolStripMenuItem1.Click
         'Exterminate the Program
         'e.Cancel = False
         Me.Close()
     End Sub
 
-    Private Sub FontToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles FontToolStripMenuItem.Click
-        'Allow the user to select a new font for the summary totals
-        With FontDialog1
-            .Font = SummaryForm.totalamtTextBox.Font
-            .ShowDialog()
-            SummaryForm.totalamtTextBox.Font = .Font
-        End With
-    End Sub
-
-    Private Sub ColorToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles ColorToolStripMenuItem.Click
-        With ColorDialog1
-            .Color = SummaryForm.totalamtTextBox.ForeColor
-            .ShowDialog()
-            SummaryForm.totalamtTextBox.ForeColor = .Color
-        End With
-    End Sub
-
-    Private Sub AboutToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AboutToolStripMenuItem.Click
+    Private Sub AboutToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AboutToolStripMenuItem1.Click
         'Display the About message box.
         AboutForm.ShowDialog()
     End Sub
 
-    Private Sub CustomerInformationToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles CustomerInformationToolStripMenuItem.Click
+    Private Sub CustomerInformationToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles CustomerInformationToolStripMenuItem1.Click
         CustomerInformationForm.ShowDialog()
     End Sub
 
-    Private Sub btnClear_Click(sender As System.Object, e As System.EventArgs) Handles btnClear.Click, ClearToolStripMenuItem.Click
+    Private Sub btnClear_Click(sender As System.Object, e As System.EventArgs) Handles btnClear.Click, ClearToolStripMenuItem1.Click
         Dim totTax As Decimal
 
         'Re-Enable Personal Information
@@ -74,7 +59,7 @@ Public Class VBOrderForm
 
     End Sub
 
-    Private Sub btnSummary_Click(sender As System.Object, e As System.EventArgs) Handles btnSummary.Click, SummaryToolStripMenuItem.Click
+    Private Sub btnSummary_Click(sender As System.Object, e As System.EventArgs) Handles btnSummary.Click, UpdateSummaryToolStripMenuItem.Click
 
 
         SummaryForm.ShowDialog()
@@ -116,9 +101,13 @@ Public Class VBOrderForm
         End Try
     End Sub
 
-    '''''''''''''''''''''''''''''''''''''''''''''''
-    ''''             VALIDATION                ''''
-    '''''''''''''''''''''''''''''''''''''''''''''''
+    Private Sub btnLookupShip_Click(sender As System.Object, e As System.EventArgs) Handles btnLookupShip.Click
+        VBShippingForm.ShowDialog()
+    End Sub
+
+    '
+    'Validation Section
+    '
 
     Private Sub nameTextBox_Validating(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles nameTextBox.Validating
         'Validate for a Required Entry
@@ -195,7 +184,18 @@ Public Class VBOrderForm
 
     End Sub
 
-    Private Sub btnLookupShip_Click(sender As System.Object, e As System.EventArgs) Handles btnLookupShip.Click
-        VBShippingForm.ShowDialog()
+
+    Private Sub LookupCustomerToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles LookupCustomerToolStripMenuItem.Click
+        'Show Customer Lookup Form which is pulling from the database
+        CustomerLookupForm.Show()
+    End Sub
+
+    Private Sub LookupProductToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles LookupProductToolStripMenuItem.Click
+        'Show Product Lookup Form which is pulling from the database
+        ProductLookupForm.Show()
+    End Sub
+
+    Private Sub PrintProductReportToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles PrintProductReportToolStripMenuItem.Click
+
     End Sub
 End Class

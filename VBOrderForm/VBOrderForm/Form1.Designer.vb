@@ -2,6 +2,7 @@
 Partial Class VBOrderForm
     Inherits System.Windows.Forms.Form
 
+
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
@@ -42,7 +43,6 @@ Partial Class VBOrderForm
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.FontDialog1 = New System.Windows.Forms.FontDialog()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SummaryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CustomerInformationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -69,10 +69,30 @@ Partial Class VBOrderForm
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.PrintDayToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PrintChangesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.FileToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UpdateSummaryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CustomerInformationToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PrintToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AddThisItemToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClearToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
+        Me.HelpToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LookupCustomerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LookupProductToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PrintProductReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PrintCustomerReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox2.SuspendLayout()
-        Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox2
@@ -222,18 +242,8 @@ Partial Class VBOrderForm
         Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
         Me.PrintForm1.PrintFileName = Nothing
         '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.HelpToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(530, 24)
-        Me.MenuStrip1.TabIndex = 0
-        Me.MenuStrip1.Text = "MenuStrip1"
-        '
         'FileToolStripMenuItem
         '
-        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SummaryToolStripMenuItem, Me.CustomerInformationToolStripMenuItem, Me.PrintToolStripMenuItem, Me.ToolStripSeparator1, Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "&File"
@@ -269,7 +279,6 @@ Partial Class VBOrderForm
         '
         'EditToolStripMenuItem
         '
-        Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddItemToolStripMenuItem, Me.ClearToolStripMenuItem, Me.ToolStripSeparator2, Me.FontToolStripMenuItem, Me.ColorToolStripMenuItem})
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
         Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
         Me.EditToolStripMenuItem.Text = "&Edit"
@@ -277,30 +286,30 @@ Partial Class VBOrderForm
         'AddItemToolStripMenuItem
         '
         Me.AddItemToolStripMenuItem.Name = "AddItemToolStripMenuItem"
-        Me.AddItemToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.AddItemToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AddItemToolStripMenuItem.Text = "&Add This Item"
         '
         'ClearToolStripMenuItem
         '
         Me.ClearToolStripMenuItem.Name = "ClearToolStripMenuItem"
-        Me.ClearToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.ClearToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ClearToolStripMenuItem.Text = "&Clear"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(145, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(149, 6)
         '
         'FontToolStripMenuItem
         '
         Me.FontToolStripMenuItem.Name = "FontToolStripMenuItem"
-        Me.FontToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.FontToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.FontToolStripMenuItem.Text = "&Font . . ."
         '
         'ColorToolStripMenuItem
         '
         Me.ColorToolStripMenuItem.Name = "ColorToolStripMenuItem"
-        Me.ColorToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.ColorToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ColorToolStripMenuItem.Text = "&Color . . ."
         '
         'HelpToolStripMenuItem
@@ -313,7 +322,7 @@ Partial Class VBOrderForm
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
         Me.AboutToolStripMenuItem.Text = "&About"
         '
         'GroupBox1
@@ -420,6 +429,129 @@ Partial Class VBOrderForm
         '
         Me.ErrorProvider1.ContainerControl = Me
         '
+        'PrintDayToolStripMenuItem
+        '
+        Me.PrintDayToolStripMenuItem.Name = "PrintDayToolStripMenuItem"
+        Me.PrintDayToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
+        Me.PrintDayToolStripMenuItem.Text = "Print &Day"
+        '
+        'PrintChangesToolStripMenuItem
+        '
+        Me.PrintChangesToolStripMenuItem.Name = "PrintChangesToolStripMenuItem"
+        Me.PrintChangesToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
+        Me.PrintChangesToolStripMenuItem.Text = "Print C&hanges"
+        '
+        'ToolStripSeparator3
+        '
+        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(189, 6)
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem1, Me.EditToolStripMenuItem1, Me.HelpToolStripMenuItem1})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(530, 24)
+        Me.MenuStrip1.TabIndex = 5
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'FileToolStripMenuItem1
+        '
+        Me.FileToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UpdateSummaryToolStripMenuItem, Me.CustomerInformationToolStripMenuItem1, Me.PrintToolStripMenuItem1, Me.ToolStripSeparator4, Me.ExitToolStripMenuItem1, Me.PrintProductReportToolStripMenuItem, Me.PrintCustomerReportToolStripMenuItem})
+        Me.FileToolStripMenuItem1.Name = "FileToolStripMenuItem1"
+        Me.FileToolStripMenuItem1.Size = New System.Drawing.Size(37, 20)
+        Me.FileToolStripMenuItem1.Text = "&File"
+        '
+        'UpdateSummaryToolStripMenuItem
+        '
+        Me.UpdateSummaryToolStripMenuItem.Name = "UpdateSummaryToolStripMenuItem"
+        Me.UpdateSummaryToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
+        Me.UpdateSummaryToolStripMenuItem.Text = "Update &Summary"
+        '
+        'CustomerInformationToolStripMenuItem1
+        '
+        Me.CustomerInformationToolStripMenuItem1.Name = "CustomerInformationToolStripMenuItem1"
+        Me.CustomerInformationToolStripMenuItem1.Size = New System.Drawing.Size(192, 22)
+        Me.CustomerInformationToolStripMenuItem1.Text = "&Customer Information"
+        '
+        'PrintToolStripMenuItem1
+        '
+        Me.PrintToolStripMenuItem1.Name = "PrintToolStripMenuItem1"
+        Me.PrintToolStripMenuItem1.Size = New System.Drawing.Size(192, 22)
+        Me.PrintToolStripMenuItem1.Text = "&Print"
+        '
+        'ToolStripSeparator4
+        '
+        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(189, 6)
+        '
+        'ExitToolStripMenuItem1
+        '
+        Me.ExitToolStripMenuItem1.Name = "ExitToolStripMenuItem1"
+        Me.ExitToolStripMenuItem1.Size = New System.Drawing.Size(192, 22)
+        Me.ExitToolStripMenuItem1.Text = "E&xit"
+        '
+        'EditToolStripMenuItem1
+        '
+        Me.EditToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddThisItemToolStripMenuItem, Me.ClearToolStripMenuItem1, Me.ToolStripSeparator5})
+        Me.EditToolStripMenuItem1.Name = "EditToolStripMenuItem1"
+        Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(39, 20)
+        Me.EditToolStripMenuItem1.Text = "&Edit"
+        '
+        'AddThisItemToolStripMenuItem
+        '
+        Me.AddThisItemToolStripMenuItem.Name = "AddThisItemToolStripMenuItem"
+        Me.AddThisItemToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AddThisItemToolStripMenuItem.Text = "&Add This Item"
+        '
+        'ClearToolStripMenuItem1
+        '
+        Me.ClearToolStripMenuItem1.Name = "ClearToolStripMenuItem1"
+        Me.ClearToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.ClearToolStripMenuItem1.Text = "&Clear"
+        '
+        'ToolStripSeparator5
+        '
+        Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
+        Me.ToolStripSeparator5.Size = New System.Drawing.Size(149, 6)
+        '
+        'HelpToolStripMenuItem1
+        '
+        Me.HelpToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem1, Me.LookupCustomerToolStripMenuItem, Me.LookupProductToolStripMenuItem})
+        Me.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1"
+        Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem1.Text = "&Help"
+        '
+        'AboutToolStripMenuItem1
+        '
+        Me.AboutToolStripMenuItem1.Name = "AboutToolStripMenuItem1"
+        Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(169, 22)
+        Me.AboutToolStripMenuItem1.Text = "&About"
+        '
+        'LookupCustomerToolStripMenuItem
+        '
+        Me.LookupCustomerToolStripMenuItem.Name = "LookupCustomerToolStripMenuItem"
+        Me.LookupCustomerToolStripMenuItem.Size = New System.Drawing.Size(169, 22)
+        Me.LookupCustomerToolStripMenuItem.Text = "Lookup &Customer"
+        '
+        'LookupProductToolStripMenuItem
+        '
+        Me.LookupProductToolStripMenuItem.Name = "LookupProductToolStripMenuItem"
+        Me.LookupProductToolStripMenuItem.Size = New System.Drawing.Size(169, 22)
+        Me.LookupProductToolStripMenuItem.Text = "Lookup &Product"
+        '
+        'PrintProductReportToolStripMenuItem
+        '
+        Me.PrintProductReportToolStripMenuItem.Name = "PrintProductReportToolStripMenuItem"
+        Me.PrintProductReportToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
+        Me.PrintProductReportToolStripMenuItem.Text = "Print P&roduct Report"
+        '
+        'PrintCustomerReportToolStripMenuItem
+        '
+        Me.PrintCustomerReportToolStripMenuItem.Name = "PrintCustomerReportToolStripMenuItem"
+        Me.PrintCustomerReportToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
+        Me.PrintCustomerReportToolStripMenuItem.Text = "Print C&ustomer Report"
+        '
         'VBOrderForm
         '
         Me.AcceptButton = Me.btnAddItem
@@ -436,11 +568,11 @@ Partial Class VBOrderForm
         Me.Text = "Very Busy Mail Order Form"
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -460,7 +592,6 @@ Partial Class VBOrderForm
     Friend WithEvents proddescTextBox As System.Windows.Forms.TextBox
     Friend WithEvents PrintForm1 As Microsoft.VisualBasic.PowerPacks.Printing.PrintForm
     Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
-    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents FontDialog1 As System.Windows.Forms.FontDialog
     Friend WithEvents ColorDialog1 As System.Windows.Forms.ColorDialog
     Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -490,5 +621,25 @@ Partial Class VBOrderForm
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents ErrorProvider1 As System.Windows.Forms.ErrorProvider
     Friend WithEvents btnLookupShip As System.Windows.Forms.Button
+    Friend WithEvents PrintDayToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PrintChangesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator3 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents FileToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents EditToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HelpToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents UpdateSummaryToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CustomerInformationToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PrintToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator4 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents ExitToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AddThisItemToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ClearToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator5 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents AboutToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents LookupCustomerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents LookupProductToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PrintProductReportToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PrintCustomerReportToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class
