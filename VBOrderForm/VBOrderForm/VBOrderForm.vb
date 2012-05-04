@@ -22,6 +22,7 @@ Public Class VBOrderForm
 
     Private Sub btnExit_Click(sender As System.Object, e As System.EventArgs) Handles ExitToolStripMenuItem.Click
         'Exterminate the Program
+        'e.Cancel = False
         Me.Close()
     End Sub
 
@@ -86,6 +87,7 @@ Public Class VBOrderForm
         'Disable Customer Information
         GroupBox1.Enabled = False
 
+        ErrorProvider1.Clear()
         'Calculate the extended price for the sale.
         Try
             If stateMaskedTextBox.Text.ToUpper() = "CA" Then
@@ -104,9 +106,96 @@ Public Class VBOrderForm
                 SummaryForm.shTextBox.Text = TheOrderItem.shipnhandle.ToString("C")
 
             End If
-        Catch
-            MessageBox.Show("Error in quantity or price field.", "VB Mail Order", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+        Catch ex As Exception
+            'Handle Price Exception
+            ErrorProvider1.SetError(btnAddItem, "Price, Quantity, and Weight are required and must be numeric.")
+            With priceTextBox
+                .Focus()
+                .SelectAll()
+            End With
         End Try
     End Sub
 
+    '''''''''''''''''''''''''''''''''''''''''''''''
+    ''''             VALIDATION                ''''
+    '''''''''''''''''''''''''''''''''''''''''''''''
+
+    Private Sub nameTextBox_Validating(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles nameTextBox.Validating
+        'Validate for a Required Entry
+
+        'Cancel any previous error
+        ErrorProvider1.SetError(nameTextBox, "")
+
+        'Check for an empty string
+        If nameTextBox.Text = String.Empty Then
+            'Cancel the event
+            e.Cancel = True
+            ErrorProvider1.SetError(nameTextBox, "Required Field.")
+        End If
+
+    End Sub
+
+    Private Sub addressTextBox_Validating(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles addressTextBox.Validating
+        'Validate for a Required Entry
+
+        'Cancel any previous error
+        ErrorProvider1.SetError(addressTextBox, "")
+
+        'Check for an empty string
+        If addressTextBox.Text = String.Empty Then
+            'Cancel the event
+            e.Cancel = True
+            ErrorProvider1.SetError(addressTextBox, "Required Field.")
+        End If
+
+    End Sub
+
+    Private Sub cityTextBox_Validating(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles cityTextBox.Validating
+        'Validate for a Required Entry
+
+        'Cancel any previous error
+        ErrorProvider1.SetError(cityTextBox, "")
+
+        'Check for an empty string
+        If cityTextBox.Text = String.Empty Then
+            'Cancel the event
+            e.Cancel = True
+            ErrorProvider1.SetError(cityTextBox, "Required Field.")
+        End If
+
+    End Sub
+
+    Private Sub stateMaskedTextBox_Validating(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles stateMaskedTextBox.Validating
+        'Validate for a Required Entry
+
+        'Cancel any previous error
+        ErrorProvider1.SetError(stateMaskedTextBox, "")
+
+        'Check for an empty string
+        If stateMaskedTextBox.Text = String.Empty Then
+            'Cancel the event
+            e.Cancel = True
+            ErrorProvider1.SetError(stateMaskedTextBox, "Required Field.")
+        End If
+
+    End Sub
+
+    Private Sub zipTextBox_Validating(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles zipTextBox.Validating
+        'Validate for a Required Entry
+
+        'Cancel any previous error
+        ErrorProvider1.SetError(zipTextBox, "")
+
+        'Check for an empty string
+        If zipTextBox.Text = String.Empty Then
+            'Cancel the event
+            e.Cancel = True
+            ErrorProvider1.SetError(zipTextBox, "Required Field.")
+        End If
+
+    End Sub
+
+    Private Sub btnLookupShip_Click(sender As System.Object, e As System.EventArgs) Handles btnLookupShip.Click
+        VBShippingForm.ShowDialog()
+    End Sub
 End Class

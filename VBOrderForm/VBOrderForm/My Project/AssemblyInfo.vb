@@ -10,8 +10,8 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("VBOrderForm")> 
 <Assembly: AssemblyDescription("Written by Elijah Gartin")> 
-<Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("VBOrderForm")> 
+<Assembly: AssemblyCompany("Very Busy Mail")> 
+<Assembly: AssemblyProduct("VB Mail Order System")> 
 <Assembly: AssemblyCopyright("Copyright ©  2012")> 
 <Assembly: AssemblyTrademark("")> 
 

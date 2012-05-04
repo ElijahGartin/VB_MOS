@@ -25,6 +25,7 @@ Partial Class VBOrderForm
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(VBOrderForm))
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.btnLookupShip = New System.Windows.Forms.Button()
         Me.priceTextBox = New System.Windows.Forms.TextBox()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.weightTextBox = New System.Windows.Forms.TextBox()
@@ -67,13 +68,16 @@ Partial Class VBOrderForm
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.GroupBox2.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.btnLookupShip)
         Me.GroupBox2.Controls.Add(Me.priceTextBox)
         Me.GroupBox2.Controls.Add(Me.btnClear)
         Me.GroupBox2.Controls.Add(Me.weightTextBox)
@@ -91,6 +95,17 @@ Partial Class VBOrderForm
         Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Product Information"
+        '
+        'btnLookupShip
+        '
+        Me.btnLookupShip.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnLookupShip.Location = New System.Drawing.Point(229, 100)
+        Me.btnLookupShip.Name = "btnLookupShip"
+        Me.btnLookupShip.Size = New System.Drawing.Size(129, 31)
+        Me.btnLookupShip.TabIndex = 12
+        Me.btnLookupShip.Text = "&Lookup Information"
+        Me.ToolTip1.SetToolTip(Me.btnLookupShip, "Lookup Shipping Info Externally")
+        Me.btnLookupShip.UseVisualStyleBackColor = True
         '
         'priceTextBox
         '
@@ -298,7 +313,7 @@ Partial Class VBOrderForm
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AboutToolStripMenuItem.Text = "&About"
         '
         'GroupBox1
@@ -401,6 +416,10 @@ Partial Class VBOrderForm
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "&Name"
         '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
+        '
         'VBOrderForm
         '
         Me.AcceptButton = Me.btnAddItem
@@ -421,6 +440,7 @@ Partial Class VBOrderForm
         Me.MenuStrip1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -468,5 +488,7 @@ Partial Class VBOrderForm
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ErrorProvider1 As System.Windows.Forms.ErrorProvider
+    Friend WithEvents btnLookupShip As System.Windows.Forms.Button
 
 End Class

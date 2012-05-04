@@ -93,3 +93,6 @@ S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.S
 S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBOrderForm.resources
 S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.read.1.tlog
 S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.write.1.tlog
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\bin\Debug\Resources\VbMail.mdb
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.exe.config
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBShippingForm.resources

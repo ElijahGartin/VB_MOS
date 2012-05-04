@@ -19,7 +19,7 @@
                 totalamtTextBox.Text = TheOrderItem.totaldue.ToString("C")
             End If
         Catch
-            MessageBox.Show("Error in quantity or price field.", "VB Mail Order", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+            ErrorProvider1.SetError(VBOrderForm.btnAddItem, "Price, Quantity, and Weight are required and must be numeric.")
         End Try
     End Sub
 End Class

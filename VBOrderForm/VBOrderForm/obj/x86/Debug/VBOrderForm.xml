@@ -6,7 +6,91 @@ VBOrderForm
 </name>
 </assembly>
 <members>
-<member name="P:VBOrderForm.My.Resources.Resources.ResourceManager">
+<member name="T:VBOrderForm.VbMailDataSet.CatalogDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSet.CustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSet.ProductDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSet.CatalogRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSet.CustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSet.ProductRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSet.CatalogRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSet.CustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSet.ProductRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSetTableAdapters.CatalogTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSetTableAdapters.CustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSetTableAdapters.ProductTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:VBOrderForm.VbMailDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(VBOrderForm.VbMailDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:VBOrderForm.VbMailDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(VBOrderForm.VbMailDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:VBOrderForm.VbMailDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(VBOrderForm.VbMailDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:VBOrderForm.VbMailDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:VBOrderForm.VbMailDataSetTableAdapters.TableAdapterManager.UpdateAll(VBOrderForm.VbMailDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:VBOrderForm.VbMailDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:VBOrderForm.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
