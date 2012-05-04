@@ -1,0 +1,81 @@
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.exe
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.pdb
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.xml
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBOrderForm.resources
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.Resources.resources
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.exe
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.xml
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week04\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.pdb
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.exe
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.xml
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.pdb
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.exe
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.pdb
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.xml
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBOrderForm.resources
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.Resources.resources
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Elijah Gartin\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week05\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.write.1.tlog
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.exe
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.xml
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.pdb
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\ResolveAssemblyReference.cache
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBOrderForm.resources
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.Resources.resources
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.read.1.tlog
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.write.1.tlog
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.exe
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.pdb
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.xml
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.exe
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.xml
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week06\Chapter05_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.pdb
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.exe
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.xml
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.pdb
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.AboutForm.resources
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.CustomerInformationForm.resources
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.Resources.resources
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.SummaryForm.resources
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBOrderForm.resources
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.read.1.tlog
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.write.1.tlog
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.exe
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.pdb
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Chapter12_Case\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.xml
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.exe
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.xml
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.pdb
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.exe
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.pdb
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.xml
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\ResolveAssemblyReference.cache
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.AboutForm.resources
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.CustomerInformationForm.resources
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.Resources.resources
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.SummaryForm.resources
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBOrderForm.resources
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.read.1.tlog
+Y:\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week12\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.write.1.tlog
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.exe
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.xml
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_Chapter12_Case\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.pdb
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.exe
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.xml
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.pdb
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.exe
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.pdb
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.xml
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.AboutForm.resources
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.CustomerInformationForm.resources
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.Resources.resources
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.SummaryForm.resources
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBOrderForm.resources
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.read.1.tlog
+S:\Elijah\Dropbox\!School\2012 Spring\CIS 3145 - Business Application Development with VB\Week15\Gartin_FinalCase\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.write.1.tlog
