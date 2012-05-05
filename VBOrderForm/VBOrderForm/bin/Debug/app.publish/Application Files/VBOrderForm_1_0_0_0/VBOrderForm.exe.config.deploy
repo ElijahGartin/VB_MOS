@@ -7,7 +7,7 @@
             connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\Resources\VbMail.mdb;Persist Security Info=True"
             providerName="System.Data.OleDb" />
         <add name="VBOrderForm.My.MySettings.VbMailConnectionString1"
-            connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\Resources\VbMail.mdb;Persist Security Info=True"
+            connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\VbMail.mdb;Persist Security Info=True"
             providerName="System.Data.OleDb" />
     </connectionStrings>
     <startup>

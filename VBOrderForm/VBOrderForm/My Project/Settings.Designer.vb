@@ -68,8 +68,8 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\VbMail.mdb;Persist S"& _ 
-            "ecurity Info=True")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\Resources\VbMail.mdb"& _ 
+            ";Persist Security Info=True")>  _
         Public ReadOnly Property VbMailConnectionString1() As String
             Get
                 Return CType(Me("VbMailConnectionString1"),String)

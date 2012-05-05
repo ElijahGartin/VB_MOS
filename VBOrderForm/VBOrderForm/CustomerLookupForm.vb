@@ -1,6 +1,14 @@
 ﻿Public Class CustomerLookupForm
 
-    Private Sub CustomerBindingNavigatorSaveItem_Click(sender As System.Object, e As System.EventArgs) Handles CustomerBindingNavigatorSaveItem.Click
+    Private Sub CustomerBindingNavigatorSaveItem_Click(sender As System.Object, e As System.EventArgs)
+        Me.Validate()
+        Me.CustomerBindingSource.EndEdit()
+        Me.TableAdapterManager.UpdateAll(Me.VbMailDataSet)
+
+    End Sub
+
+
+    Private Sub CustomerBindingNavigatorSaveItem_Click_1(sender As System.Object, e As System.EventArgs) Handles CustomerBindingNavigatorSaveItem.Click
         Me.Validate()
         Me.CustomerBindingSource.EndEdit()
         Me.TableAdapterManager.UpdateAll(Me.VbMailDataSet)

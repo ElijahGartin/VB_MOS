@@ -187,12 +187,12 @@ Public Class VBOrderForm
 
     Private Sub LookupCustomerToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles LookupCustomerToolStripMenuItem.Click
         'Show Customer Lookup Form which is pulling from the database
-        CustomerLookupForm.Show()
+        CustomerLookupForm.ShowDialog()
     End Sub
 
     Private Sub LookupProductToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles LookupProductToolStripMenuItem.Click
         'Show Product Lookup Form which is pulling from the database
-        ProductLookupForm.Show()
+        ProductLookupForm.ShowDialog()
     End Sub
 
     Private Sub PrintProductReportToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles PrintProductReportToolStripMenuItem.Click
