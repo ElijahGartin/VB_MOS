@@ -198,7 +198,7 @@ Partial Class ProductLookupForm
         'ProductNumberLabel
         '
         ProductNumberLabel.AutoSize = True
-        ProductNumberLabel.Location = New System.Drawing.Point(16, 65)
+        ProductNumberLabel.Location = New System.Drawing.Point(12, 61)
         ProductNumberLabel.Name = "ProductNumberLabel"
         ProductNumberLabel.Size = New System.Drawing.Size(87, 13)
         ProductNumberLabel.TabIndex = 1
@@ -208,15 +208,15 @@ Partial Class ProductLookupForm
         '
         Me.ProductNumberComboBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.ProductBindingSource, "ProductNumber", True))
         Me.ProductNumberComboBox.FormattingEnabled = True
-        Me.ProductNumberComboBox.Location = New System.Drawing.Point(109, 62)
+        Me.ProductNumberComboBox.Location = New System.Drawing.Point(105, 58)
         Me.ProductNumberComboBox.Name = "ProductNumberComboBox"
-        Me.ProductNumberComboBox.Size = New System.Drawing.Size(163, 21)
+        Me.ProductNumberComboBox.Size = New System.Drawing.Size(158, 21)
         Me.ProductNumberComboBox.TabIndex = 2
         '
         'CatalogNumberLabel
         '
         CatalogNumberLabel.AutoSize = True
-        CatalogNumberLabel.Location = New System.Drawing.Point(16, 92)
+        CatalogNumberLabel.Location = New System.Drawing.Point(12, 88)
         CatalogNumberLabel.Name = "CatalogNumberLabel"
         CatalogNumberLabel.Size = New System.Drawing.Size(86, 13)
         CatalogNumberLabel.TabIndex = 3
@@ -225,15 +225,15 @@ Partial Class ProductLookupForm
         'CatalogNumberTextBox
         '
         Me.CatalogNumberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.ProductBindingSource, "CatalogNumber", True))
-        Me.CatalogNumberTextBox.Location = New System.Drawing.Point(109, 89)
+        Me.CatalogNumberTextBox.Location = New System.Drawing.Point(105, 85)
         Me.CatalogNumberTextBox.Name = "CatalogNumberTextBox"
-        Me.CatalogNumberTextBox.Size = New System.Drawing.Size(163, 20)
+        Me.CatalogNumberTextBox.Size = New System.Drawing.Size(158, 20)
         Me.CatalogNumberTextBox.TabIndex = 4
         '
         'DescriptionLabel
         '
         DescriptionLabel.AutoSize = True
-        DescriptionLabel.Location = New System.Drawing.Point(16, 118)
+        DescriptionLabel.Location = New System.Drawing.Point(12, 114)
         DescriptionLabel.Name = "DescriptionLabel"
         DescriptionLabel.Size = New System.Drawing.Size(63, 13)
         DescriptionLabel.TabIndex = 5
@@ -242,15 +242,15 @@ Partial Class ProductLookupForm
         'DescriptionTextBox
         '
         Me.DescriptionTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.ProductBindingSource, "Description", True))
-        Me.DescriptionTextBox.Location = New System.Drawing.Point(109, 115)
+        Me.DescriptionTextBox.Location = New System.Drawing.Point(105, 111)
         Me.DescriptionTextBox.Name = "DescriptionTextBox"
-        Me.DescriptionTextBox.Size = New System.Drawing.Size(163, 20)
+        Me.DescriptionTextBox.Size = New System.Drawing.Size(158, 20)
         Me.DescriptionTextBox.TabIndex = 6
         '
         'PriceLabel
         '
         PriceLabel.AutoSize = True
-        PriceLabel.Location = New System.Drawing.Point(16, 144)
+        PriceLabel.Location = New System.Drawing.Point(12, 140)
         PriceLabel.Name = "PriceLabel"
         PriceLabel.Size = New System.Drawing.Size(34, 13)
         PriceLabel.TabIndex = 7
@@ -259,15 +259,15 @@ Partial Class ProductLookupForm
         'PriceTextBox
         '
         Me.PriceTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.ProductBindingSource, "Price", True))
-        Me.PriceTextBox.Location = New System.Drawing.Point(109, 141)
+        Me.PriceTextBox.Location = New System.Drawing.Point(105, 137)
         Me.PriceTextBox.Name = "PriceTextBox"
-        Me.PriceTextBox.Size = New System.Drawing.Size(163, 20)
+        Me.PriceTextBox.Size = New System.Drawing.Size(158, 20)
         Me.PriceTextBox.TabIndex = 8
         '
         'WeightLabel
         '
         WeightLabel.AutoSize = True
-        WeightLabel.Location = New System.Drawing.Point(16, 170)
+        WeightLabel.Location = New System.Drawing.Point(12, 166)
         WeightLabel.Name = "WeightLabel"
         WeightLabel.Size = New System.Drawing.Size(44, 13)
         WeightLabel.TabIndex = 9
@@ -276,9 +276,9 @@ Partial Class ProductLookupForm
         'WeightTextBox
         '
         Me.WeightTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.ProductBindingSource, "Weight", True))
-        Me.WeightTextBox.Location = New System.Drawing.Point(109, 167)
+        Me.WeightTextBox.Location = New System.Drawing.Point(105, 163)
         Me.WeightTextBox.Name = "WeightTextBox"
-        Me.WeightTextBox.Size = New System.Drawing.Size(163, 20)
+        Me.WeightTextBox.Size = New System.Drawing.Size(158, 20)
         Me.WeightTextBox.TabIndex = 10
         '
         'ProductLookupForm

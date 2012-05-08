@@ -47,18 +47,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VBOrderForm.exe" size="235520">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VBOrderForm.exe" size="236032">
       <assemblyIdentity name="VBOrderForm" version="2.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JHpa6LZsoc9mJhBb770aYHYq6Q8=</dsig:DigestValue>
+        <dsig:DigestValue>YbEcufn+UbEwW6xBi5foa2AnFSE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Resources\VbMail.mdb" size="196608" writeableType="applicationData">
+  <file name="VbMail.mdb" size="196608" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -67,13 +67,13 @@
       <dsig:DigestValue>stTZ00yAPsJgaaYM725OCz56QL4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="VBOrderForm.exe.config" size="818">
+  <file name="VBOrderForm.exe.config" size="1042">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>YJBHkGzeZ44TpsfpYErUEYJz21Q=</dsig:DigestValue>
+      <dsig:DigestValue>1k/w4vZWcpoEf8rnPFU5lOwuMHo=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

@@ -139,7 +139,7 @@
     </Compile>
     <Compile Include="TableAdapterManager.vb" />
     <Compile Include="TableAdapterManager1.vb" />
-    <Compile Include="Resources\VbMailDataSet.Designer.vb">
+    <Compile Include="VbMailDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>VbMailDataSet.xsd</DependentUpon>
@@ -213,15 +213,15 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="Resources\VbMailDataSet.xsc">
+    <None Include="VbMailDataSet.xsc">
       <DependentUpon>VbMailDataSet.xsd</DependentUpon>
     </None>
-    <None Include="Resources\VbMailDataSet.xsd">
+    <None Include="VbMailDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>VbMailDataSet.Designer.vb</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="Resources\VbMailDataSet.xss">
+    <None Include="VbMailDataSet.xss">
       <DependentUpon>VbMailDataSet.xsd</DependentUpon>
     </None>
     <None Include="VBOrderForm_TemporaryKey.pfx" />
@@ -261,11 +261,13 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="Resources\VbMail.mdb">
+    <Content Include="VbMail.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

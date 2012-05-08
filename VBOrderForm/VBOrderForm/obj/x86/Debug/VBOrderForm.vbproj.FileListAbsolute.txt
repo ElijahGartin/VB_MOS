@@ -95,10 +95,10 @@ S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResou
 S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\GenerateResource.write.1.tlog
 S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.exe.config
 S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.VBShippingForm.resources
-S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.ProductLookupForm.resources
-S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\bin\Debug\Resources\VbMail.mdb
-S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.CustomerLookupForm.resources
 S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.exe.manifest
 S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\bin\Debug\VBOrderForm.application
 S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.exe.manifest
 S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.application
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.CustomerLookupForm.resources
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\obj\x86\Debug\VBOrderForm.ProductLookupForm.resources
+S:\Elijah\Dropbox\Git\VB_MOS\VBOrderForm\VBOrderForm\bin\Debug\VbMail.mdb

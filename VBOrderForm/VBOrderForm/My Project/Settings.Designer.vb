@@ -75,6 +75,16 @@ Namespace My
                 Return CType(Me("VbMailConnectionString1"),String)
             End Get
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\VbMail.mdb")>  _
+        Public ReadOnly Property VbMailConnectionString2() As String
+            Get
+                Return CType(Me("VbMailConnectionString2"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 

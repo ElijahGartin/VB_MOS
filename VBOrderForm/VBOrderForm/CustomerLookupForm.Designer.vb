@@ -204,7 +204,7 @@ Partial Class CustomerLookupForm
         'CustomerIDLabel
         '
         CustomerIDLabel.AutoSize = True
-        CustomerIDLabel.Location = New System.Drawing.Point(17, 72)
+        CustomerIDLabel.Location = New System.Drawing.Point(12, 51)
         CustomerIDLabel.Name = "CustomerIDLabel"
         CustomerIDLabel.Size = New System.Drawing.Size(68, 13)
         CustomerIDLabel.TabIndex = 1
@@ -214,15 +214,15 @@ Partial Class CustomerLookupForm
         '
         Me.CustomerIDComboBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CustomerBindingSource, "CustomerID", True))
         Me.CustomerIDComboBox.FormattingEnabled = True
-        Me.CustomerIDComboBox.Location = New System.Drawing.Point(91, 69)
+        Me.CustomerIDComboBox.Location = New System.Drawing.Point(86, 48)
         Me.CustomerIDComboBox.Name = "CustomerIDComboBox"
-        Me.CustomerIDComboBox.Size = New System.Drawing.Size(181, 21)
+        Me.CustomerIDComboBox.Size = New System.Drawing.Size(178, 21)
         Me.CustomerIDComboBox.TabIndex = 2
         '
         'LastNameLabel
         '
         LastNameLabel.AutoSize = True
-        LastNameLabel.Location = New System.Drawing.Point(17, 99)
+        LastNameLabel.Location = New System.Drawing.Point(12, 78)
         LastNameLabel.Name = "LastNameLabel"
         LastNameLabel.Size = New System.Drawing.Size(61, 13)
         LastNameLabel.TabIndex = 3
@@ -231,15 +231,15 @@ Partial Class CustomerLookupForm
         'LastNameTextBox
         '
         Me.LastNameTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CustomerBindingSource, "LastName", True))
-        Me.LastNameTextBox.Location = New System.Drawing.Point(91, 96)
+        Me.LastNameTextBox.Location = New System.Drawing.Point(86, 75)
         Me.LastNameTextBox.Name = "LastNameTextBox"
-        Me.LastNameTextBox.Size = New System.Drawing.Size(181, 20)
+        Me.LastNameTextBox.Size = New System.Drawing.Size(178, 20)
         Me.LastNameTextBox.TabIndex = 4
         '
         'FirstNameLabel
         '
         FirstNameLabel.AutoSize = True
-        FirstNameLabel.Location = New System.Drawing.Point(17, 125)
+        FirstNameLabel.Location = New System.Drawing.Point(12, 104)
         FirstNameLabel.Name = "FirstNameLabel"
         FirstNameLabel.Size = New System.Drawing.Size(60, 13)
         FirstNameLabel.TabIndex = 5
@@ -248,15 +248,15 @@ Partial Class CustomerLookupForm
         'FirstNameTextBox
         '
         Me.FirstNameTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CustomerBindingSource, "FirstName", True))
-        Me.FirstNameTextBox.Location = New System.Drawing.Point(91, 122)
+        Me.FirstNameTextBox.Location = New System.Drawing.Point(86, 101)
         Me.FirstNameTextBox.Name = "FirstNameTextBox"
-        Me.FirstNameTextBox.Size = New System.Drawing.Size(181, 20)
+        Me.FirstNameTextBox.Size = New System.Drawing.Size(178, 20)
         Me.FirstNameTextBox.TabIndex = 6
         '
         'AddressLabel
         '
         AddressLabel.AutoSize = True
-        AddressLabel.Location = New System.Drawing.Point(17, 151)
+        AddressLabel.Location = New System.Drawing.Point(12, 130)
         AddressLabel.Name = "AddressLabel"
         AddressLabel.Size = New System.Drawing.Size(48, 13)
         AddressLabel.TabIndex = 7
@@ -265,15 +265,15 @@ Partial Class CustomerLookupForm
         'AddressTextBox
         '
         Me.AddressTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CustomerBindingSource, "Address", True))
-        Me.AddressTextBox.Location = New System.Drawing.Point(91, 148)
+        Me.AddressTextBox.Location = New System.Drawing.Point(86, 127)
         Me.AddressTextBox.Name = "AddressTextBox"
-        Me.AddressTextBox.Size = New System.Drawing.Size(181, 20)
+        Me.AddressTextBox.Size = New System.Drawing.Size(178, 20)
         Me.AddressTextBox.TabIndex = 8
         '
         'CityLabel
         '
         CityLabel.AutoSize = True
-        CityLabel.Location = New System.Drawing.Point(17, 177)
+        CityLabel.Location = New System.Drawing.Point(12, 156)
         CityLabel.Name = "CityLabel"
         CityLabel.Size = New System.Drawing.Size(27, 13)
         CityLabel.TabIndex = 9
@@ -282,15 +282,15 @@ Partial Class CustomerLookupForm
         'CityTextBox
         '
         Me.CityTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CustomerBindingSource, "City", True))
-        Me.CityTextBox.Location = New System.Drawing.Point(91, 174)
+        Me.CityTextBox.Location = New System.Drawing.Point(86, 153)
         Me.CityTextBox.Name = "CityTextBox"
-        Me.CityTextBox.Size = New System.Drawing.Size(181, 20)
+        Me.CityTextBox.Size = New System.Drawing.Size(178, 20)
         Me.CityTextBox.TabIndex = 10
         '
         'StateLabel
         '
         StateLabel.AutoSize = True
-        StateLabel.Location = New System.Drawing.Point(17, 203)
+        StateLabel.Location = New System.Drawing.Point(12, 182)
         StateLabel.Name = "StateLabel"
         StateLabel.Size = New System.Drawing.Size(35, 13)
         StateLabel.TabIndex = 11
@@ -299,15 +299,15 @@ Partial Class CustomerLookupForm
         'StateTextBox
         '
         Me.StateTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CustomerBindingSource, "State", True))
-        Me.StateTextBox.Location = New System.Drawing.Point(91, 200)
+        Me.StateTextBox.Location = New System.Drawing.Point(86, 179)
         Me.StateTextBox.Name = "StateTextBox"
-        Me.StateTextBox.Size = New System.Drawing.Size(181, 20)
+        Me.StateTextBox.Size = New System.Drawing.Size(178, 20)
         Me.StateTextBox.TabIndex = 12
         '
         'ZipCodeLabel
         '
         ZipCodeLabel.AutoSize = True
-        ZipCodeLabel.Location = New System.Drawing.Point(17, 229)
+        ZipCodeLabel.Location = New System.Drawing.Point(12, 208)
         ZipCodeLabel.Name = "ZipCodeLabel"
         ZipCodeLabel.Size = New System.Drawing.Size(53, 13)
         ZipCodeLabel.TabIndex = 13
@@ -316,16 +316,16 @@ Partial Class CustomerLookupForm
         'ZipCodeTextBox
         '
         Me.ZipCodeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CustomerBindingSource, "ZipCode", True))
-        Me.ZipCodeTextBox.Location = New System.Drawing.Point(91, 226)
+        Me.ZipCodeTextBox.Location = New System.Drawing.Point(86, 205)
         Me.ZipCodeTextBox.Name = "ZipCodeTextBox"
-        Me.ZipCodeTextBox.Size = New System.Drawing.Size(181, 20)
+        Me.ZipCodeTextBox.Size = New System.Drawing.Size(178, 20)
         Me.ZipCodeTextBox.TabIndex = 14
         '
         'CustomerLookupForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 266)
+        Me.ClientSize = New System.Drawing.Size(284, 262)
         Me.Controls.Add(CustomerIDLabel)
         Me.Controls.Add(Me.CustomerIDComboBox)
         Me.Controls.Add(LastNameLabel)
